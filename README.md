@@ -1,5 +1,5 @@
 # esp32s2_core
-![alt text](https://github.com/hanyelkomy/StackRduino-SAMD21M0/blob/master/StackRduino_M0%2B_PRO.png?raw=true)
+![alt text](https://github.com/CircuitART/esp32s2_core/blob/main/esp32s2_core.png?raw=true)
 
 StackRduino M0+ PRO is an open source Development board based on the ATSAMD21G18 for Arduino &amp; Circuit-Python packed with features & comes with many stackable shields
 

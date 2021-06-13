@@ -1,42 +1,35 @@
-# esp32s2_core
+
 ![alt text](https://github.com/CircuitART/esp32s2_core/blob/main/esp32s2_core.png?raw=true)
+# esp32s2_core
+ESP32-S2 core designed as a part of CircuitART kit which consist of 5 core boards and a Feather format carrier board which gives you maximum flexabilty and elemenate the need of buying many dev boards or shileds.
 
-StackRduino M0+ PRO is an open source Development board based on the ATSAMD21G18 for Arduino &amp; Circuit-Python packed with features & comes with many stackable shields
-
-With support for Adafruit CircuitPython, Arduino IDE, and other libraries the StackRduino M0+ PRO is able to act as a single solution for all projects great and small.
+CircuitART ESP32-S2 core is an open source Development board with support for Adafruit CircuitPython, Arduino IDE, and developmemnt platforms.
+CircuitART Feather kit is able to act as a single solution for all projects great and small.
 
 ## Hardware
- - [SAMD21G18](https://www.microchip.com/wwwproducts/en/ATsamd21g18) Processor. This is the same chip used in many Adafruit Feather designs.
- - 256KB of FLASH + 32KB of RAM
- - USB C power and data
- - Built-in battery charger & LiPo Fuel Gauge
- - 8MB Flash Storage for CircuitPython
+ - [ESP32-S2](https://www.espressif.com/en/products/socs/esp32-s2) Processor. ESP32-S2 is a highly integrated, low-power, single-core Wi-Fi Microcontroller SoC, designed to be secure and cost-effective, with a high performance and a rich set of IO capabilities.
+ - 32-bit 240 MHz single-core processor
+ - 2.4 GHz Wi-Fi - 802.11b/g/n
+ - 3D Antenna
+ - 8 MB SPI Flash
+ - 8 MB extra PSRAMr
  - 32.768 KHz crystal for clock generation & RTC
- - DUAL 3.3V regulator with 700mA peak current output each
- - APDS9960 RGB, proximity and gesture sensor
- - BME680 Environmental Sensor
- - BNO055 9-DOF Absolute Orientation IMU
- - You also get tons of pins - 20 GPIO pins
- - Hardware Serial, hardware I2C, hardware SPI support
- - PWM outputs on all pins
- - 6X 12-Bit Analog Inputs
- - 1X 10-bit analog ouput (DAC)
- - Qwiic/STEMMA-QT connector for fast I2C connectivity
+ - NeoPixel led
+ - Dual Board to Board connector for a snap on mounting on our CircuitART Feather carrier board (https://www.espressif.com/en/products/socs/esp32-s2) Which gives you:-
+
  
  ## Software Development
-### StackRduino Forks and Dev Branches
+### Forks and Dev Branches
 
-- [Arduino](https://github.com/StackRduino/StackRduino_M0/tree/master/Arduino)
-- [Bootloader](https://github.com/StackRduino/StackRduino_M0/tree/master/Bootloader)
-- [CircuitPython](https://github.com/StackRduino/StackRduino_M0/tree/master/Circuitpython)
+- [Bootloader](https://github.com/CircuitART/esp32s2_core/tree/main/bootloader)
+- [CircuitPython](https://github.com/CircuitART/esp32s2_core/tree/main/Circuitpython)
 
 ### Official Repositories
 
-- [Bootloader by Adafruit](https://github.com/adafruit/uf2-samdx1/)
-- [Bootloader by Microsoft](https://github.com/Microsoft/uf2-samdx1)
+- [Bootloader by Adafruit](https://github.com/adafruit/tinyuf2)
 - [CircuitPython by Adafruit](https://github.com/adafruit/circuitpython)
 
 
 ## License
 
-GNU GENERAL PUBLIC LICENSE
+GNU General Public License v3.0
